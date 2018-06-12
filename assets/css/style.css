@@ -1,445 +1,50 @@
-/*I don't feel too confident in this one. I didn't really understand what I was doing until the end and now I don't have enough time to go back and try again.
-The website looks decent but I think that I did a lot of this inefficiently. I think I am going to go back and remake a lot of this from scratch.*/
-
-
-
-/*background image*/
-
-
-
-body{
-    background-image: url("../images/background.png");
-    width: 960px;
-    overflow: hidden;
- }
- 
- .background-box{
-    position: relative;
-    color: #ffffff;
-    background-color: #ffffff;
-    top: 150px;
-    left: 200px;
-    width: 1100px;
-    height: 500px;
-    z-index: 0;
+body {
+    background-image: url("../images/background.png")
 }
 
+.jumbotron{
+    background-color: #eeeeee !important;
+    color: black;
 
-
- /*header*/
-
-
-
- /*name*/
- h1 {
-     position: relative;
-     top: 0;
-     left: 200px;
-     margin: 0;
-     padding: 20px;
-     float: left;
-     width: 21%;
-     font-family: 'Times New Roman', Times, serif;
-     font-size: 30px;
-     font-weight: bold;
-     background-color: #4aaaa5;
-     color: white;
-     z-index: 1;
-    }
-
-/*buttons*/
-.buttons {
-    position: relative;
-    float: right;
-    top: 20px;
-    margin:0;
-    left: 340px;
-    width: 10%; 
-    font-size: 20px;
-    font-family:Arial, Helvetica, sans-serif;
-    color: #777777;
-    background-color: #ffffff;
-    border-width: thin;
-    border-top: none;
-    border-bottom: none;
-    border-left: none;
-    z-index: 1;
 }
 
-.buttons:active{
+.header {
+    background-color: #ffffff;
+    border-bottom: 3px solid black;
+    margin-bottom: 50px;
+}
+
+#header-name {
+    /* width: 30%; */
     background-color: #4aaaa5;
     color: #ffffff;
+    padding:15px;
 }
 
-.buttons:hover{
-    box-shadow: 0px 0px 5px 0px #777777;
-}
-
-.buttons:focus{
-    box-shadow: 0px 0px 5px 0px #777777;
-}
-
-/*gets rid of the right side border on the contact button*/
-.c-button{
-    border-right: none;
-}
-
-/*used to fill in white space between name and buttons in header*/
-.header-fill {
-    position: relative;
-    bottom: 70px;
-    margin: 0;
-    background-color: white;
-    color: white;
-    float: left;
-    width: 50em;
-    font-size: 30px;
-    padding: 20px;
-    z-index: 0;
-    box-shadow: 0px 2px #cccccc;
-}
-
-
-
-/*about me content*/
-
-
-
-/*header*/
 #about {
-    clear:both;
     position: relative;
-    left: 220px;
-    bottom: 370px; 
-    width: 1000px;
-    margin: 20px;
-    padding: 20px;
-    padding-left: 0px;
-    background-color: white;
-    color: #4aaaa5;
-    box-shadow: 0px 2px #777777;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 30px;
-    font-weight: bold;
+    bottom: 30px;
+    border-bottom: 3px solid black;
 }
 
-
-
-/*bio text*/
-#text1{
-    position: relative;
-    bottom: 375px;
-    left: 240px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    width: 1000px;
+.about-text {
     font-size: 20px;
     color: #777777;
 }
 
-#text2{
-    position: relative;
-    bottom: 375px;
-    left: 240px;
-    padding-bottom: 20px;
-    width: 1000px;
-    font-size: 20px;
-    color: #777777;
-}
-
-#text3{
-    position: relative;
-    bottom: 375px;
-    left: 240px;
-    width: 1000px;
-    font-size: 20px;
-    color: #777777;
-}
-
-/*my image*/
-#me {
-    position: relative;
-    bottom: 360px;
-    left: 220px;
-    float: left;
-    padding: 20px;
-    padding-top: 0px;
-    padding-right: 0px;
-}
-
-
-/*portfolio content*/
-
-
-
-/*header*/
 #portfolio {
-    clear:both;
     position: relative;
-    left: 220px;
-    bottom: 370px; 
-    width: 1000px;
-    margin: 20px;
-    padding: 20px;
-    padding-left: 0px;
-    background-color: white;
-    color: #4aaaa5;
-    box-shadow: 0px 2px #777777;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 30px;
-    font-weight: bold;
+    bottom: 30px;
+    border-bottom: 3px solid black;
 }
 
-/*images*/
-#img1 {
+#contact {
     position: relative;
-    bottom: 380px;
-    left: 220px;
-    padding: 20px;
-    float: left;
+    bottom: 30px;
+    border-bottom: 3px solid black;
 }
 
-#img2 {
-    position: relative;
-    bottom: 380px;
-    left: 220px;
-    padding: 20px;
-    float: left;
-}
-
-#img3 {
-    position: relative;
-    bottom: 380px;
-    left: 220px;
-    padding: 20px;
-    float:left;
-}
-
-#img4{
-    position: relative;
-    bottom: 180px;
-    right: 425px;
-    padding: 20px;
-    float: left;
-}
-
-#img5{
-    position: relative;
-    bottom: 397px;
-    left: 435px;
-    padding: 20px;
-    float: left;
-}
-
-/*image banners*/
-#ph1:hover, #ph2:hover, #ph3:hover, #ph4:hover, #ph5:hover {
-    box-shadow: 0px 0px 20px 0px #777777;
-}
-
-#ph1:active, #ph2:active, #ph3:active, #ph4:active, #ph5:active {
+.contact-text {
+    /* font-size: 10px; */
     color: #777777;
 }
-
-#ph1 {
-    position: absolute;
-    bottom: 350px;
-    left: 240px;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-    font-size: 30px;
-    padding: 10px;
-    padding-right: 13.5px;
-    color: white;
-    background-color: #4aaaa5;
-    overflow: hidden;
-    
-}
-
-#ph2 {
-    position: absolute;
-    bottom: 350px;
-    left: 455px;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-    font-size: 30px;
-    padding: 10px 4px 10px 5px;
-    color: white;
-    background-color: #4aaaa5;
-}
-
-#ph3{
-    position: absolute;
-    bottom: 350px;
-    left: 670px;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-    font-size: 30px;
-    padding: 10px 4px 10px 4px;
-    color: white;
-    background-color: #4aaaa5;
-}
-
-#ph4{
-    position: absolute;
-    bottom: 150px;
-    left: 240px;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-    font-size: 30px;
-    padding: 10px 4px 10px 4.5px;
-    color: white;
-    background-color: #4aaaa5;
-}
-
-#ph5{
-    position: absolute;
-    bottom: 150px;
-    left: 455px;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-    font-size: 30px;
-    padding: 10px 4px 10px 4.5px;
-    color: white;
-    background-color: #4aaaa5;
-}
-
-
-
-/*contact content*/
-
-
-
-/*header*/
-#c-title {
-    clear:both;
-    position: relative;
-    left: 220px;
-    bottom: 370px; 
-    width: 1000px;
-    margin: 20px;
-    padding: 20px;
-    padding-left: 0px;
-    background-color: white;
-    color: #4aaaa5;
-    box-shadow: 0px 2px #777777;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 30px;
-    font-weight: bold;
-}
-
-/*name entry*/
-#c-name {
-    position: relative;
-    bottom: 375px;
-    left: 200px;
-    margin: 5px;
-    margin-left: 40px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #777777;
-}
-
-#c-name-box {
-    position: relative;
-    bottom: 375px;
-    left: 200px;
-    margin: 5px;
-    margin-left: 40px;
-    width: 700px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #777777;
-}
-
-/*email entry*/
-#c-email {
-    position: relative;
-    bottom: 370px;
-    left: 200px;
-    margin: 5px;
-    margin-left: 40px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #777777;
-}
-
-#c-email-box {
-    position: relative;
-    bottom: 370px;
-    left: 200px;
-    margin: 5px;
-    margin-left: 40px;
-    width: 700px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #777777;
-}
-
-/*message entry*/
-#c-message {
-    position: relative;
-    bottom: 365px;
-    left: 200px;
-    margin: 5px;
-    margin-left: 40px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #777777;
-}
-
-#c-message-box {
-    position: relative;
-    bottom: 365px;
-    left: 200px;
-    margin: 5px;
-    margin-left: 40px;
-    width: 700px;
-    height: 150px;
-    text-align: left;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #777777;
-}
-
-/*submit button*/
-#submit-btn {
-    position: relative;
-    bottom: 330px;
-    right: 516px;
-    padding: 10px;
-    width: 100px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    background-color: #4aaaa5;
-    color: white; 
-}
-
-#submit-btn:hover {
-    box-shadow: 0px 0px 10px 0px #777777;
-}
-
-#submit-btn:focus {
-    box-shadow: 0px 0px 10px 0px #777777;
-}
-
-
-
-/*footer try. I attempted to make it a sticky footer, but couldn't quite get it to work.*/
-
-
-
-.content {
-    min-height: 100%;
-  }
-  .content-inside {
-    padding-bottom: 50px;
-  }
-  .footer {
-    position: absolute;
-    bottom: 0px;
-    height: 50px;
-    width: 1600px;
-    margin-top: -50px;
-    text-align: center;
-    color: #ffffff;
-    background-color: #666666;
-    border: double 5px #4aaaa5;
-    border-left: none;
-    border-right: none;
-    border-bottom: none;
-    box-shadow: 0px 0px 20px 0px #4aaaa5;
-  }
