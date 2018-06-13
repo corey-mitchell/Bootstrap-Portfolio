@@ -8,6 +8,10 @@ body {
 
 }
 
+#headerdiv {
+    width: 100%;
+}
+
 .header {
     background-color: #ffffff;
     border-bottom: 3px solid black;
@@ -38,16 +42,12 @@ body {
     border-bottom: 3px solid black;
 }
 
-.img1div {
-    overflow: hidden;
-}
-
 #ph1, #ph2, #ph3, #ph4, #ph5 {
     position: relative;
     bottom: 70px;
     background-color: #4aaaa5;
     padding: 5px;
-
+    width: 175px;
 }
 
 .PLlinks {
@@ -68,4 +68,8 @@ body {
 .contact-text {
     /* font-size: 10px; */
     color: #777777;
+}
+
+#c-message-box {
+    width: 100%;
 }
