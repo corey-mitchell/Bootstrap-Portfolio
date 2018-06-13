@@ -9,13 +9,21 @@ body {
 }
 
 #headerdiv {
-    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+#filler {
+    margin: 0px;
+    padding: 0px;
 }
 
 .header {
     background-color: #ffffff;
     border-bottom: 3px solid black;
     margin-bottom: 50px;
+    width: 1540px;
+    overflow-x: hidden !important;
 }
 
 #header-name {
@@ -70,6 +78,36 @@ body {
     color: #777777;
 }
 
-#c-message-box {
-    width: 100%;
+.messageCdiv {
+    width: 73%;
 }
+
+@media screen and (max-width: 1200px) {
+   .messageCdiv {
+        width: 88%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .messageCdiv {
+        width: 100%;
+     }
+
+    #me {
+       display: none;
+    }
+
+    #img2div, #img4div {
+        margin-left: 50px;
+    }
+ }
+
+ @media screen and (max-width: 768px) {
+    #me {
+        display: none;
+    }
+
+    #img2div, #img4div {
+        margin-left: 0px;
+    }
+ }
