@@ -9,28 +9,7 @@ body {
 }
 
 #headerdiv {
-    margin: 0px;
-    padding: 0px;
-}
-
-#filler {
-    margin: 0px;
-    padding: 0px;
-}
-
-.header {
-    background-color: #ffffff;
-    border-bottom: 3px solid black;
     margin-bottom: 50px;
-    width: 1540px;
-    overflow-x: hidden !important;
-}
-
-#header-name {
-    /* width: 30%; */
-    background-color: #4aaaa5;
-    color: #ffffff;
-    padding:15px;
 }
 
 #about {
