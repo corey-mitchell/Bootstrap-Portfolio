@@ -1,16 +1,27 @@
+/* body */
+
 body {
     background-image: url("../images/background.png")
 }
 
-.jumbotron{
-    background-color: #eeeeee !important;
-    color: black;
 
-}
+/* header */
 
 #headerdiv {
+    background-color: #eeeeee !important;
+    border-bottom: 3px solid black;
+    padding: 0px;
     margin-bottom: 50px;
 }
+
+#nav-name {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    padding: 10px;
+}
+
+
+/* About Me Content */
 
 #about {
     position: relative;
@@ -22,6 +33,9 @@ body {
     font-size: 20px;
     color: #777777;
 }
+
+
+/* Portfolio Content */
 
 #portfolio {
     position: relative;
@@ -41,10 +55,8 @@ body {
     color: #ffffff;
 }
 
-.PLlinks:hover {
-    box-shadow: 0px 0px 10px 0px solid black;
-}
 
+/* Contact Content */
 
 #contact {
     position: relative;
@@ -53,13 +65,53 @@ body {
 }
 
 .contact-text {
-    /* font-size: 10px; */
     color: #777777;
+}
+
+#conJT {
+    margin-bottom: 60px;
+}
+
+.nameCdiv {
+    margin-bottom: 20px;
+}
+
+.emailCdiv {
+    margin-bottom: 20px;
 }
 
 .messageCdiv {
     width: 73%;
+    margin-bottom: 20px;
 }
+
+#submit-btn {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#sbmt-btn-div {
+    position: relative;
+    right: 15px;
+}
+
+
+/* Footer Content */
+
+#sticky-footer {
+    color: #ffffff;
+    background-color: #777777;
+    padding: 20px;
+    text-align: center;
+    border-top: 3px #4aaaa5;
+    /* box-shadow: 0px 0px 40px 0px #4aaaa5; */
+}
+
+
+/* MQ Content */
 
 @media screen and (max-width: 1200px) {
    .messageCdiv {
