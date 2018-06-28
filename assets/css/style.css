@@ -8,11 +8,12 @@ body {
 /* header */
 
 #headerdiv {
-    background-color: #eeeeee !important;
     border-bottom: 3px solid black;
     padding: 0px;
+    /* margin: 0px; */
     margin-bottom: 50px;
 }
+
 
 #nav-name {
     color: #ffffff;
@@ -53,6 +54,17 @@ body {
 
 .PLlinks {
     color: #ffffff;
+}
+
+#p1-text {
+    font-size: 25px;
+    margin-bottom: 13px;
+}
+
+#p2-text {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 16px;
 }
 
 
