@@ -4,11 +4,16 @@ body {
     background-image: url("../images/background.png")
 }
 
-.contentDiv{
+.contentDiv {
     background-color: #e9ecef;
     padding: 64px 32px 64px 32px;
     margin-bottom: 80px;
     border-radius: .3rem;
+}
+
+/* Since portfolio stretches pasts the screen, it causes the div to shift to the left slightly. I added this to fix the offset */
+#pfContentDiv {
+    margin-left: 10px;
 }
 
 
