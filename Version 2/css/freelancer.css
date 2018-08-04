@@ -131,6 +131,10 @@ section h2 {
   padding: 0.8rem;
 }
 
+#myPhoto {
+  border-radius: 50%;
+}
+
 @media (min-width: 992px) {
   #mainNav {
     padding-top: 1.5rem;
