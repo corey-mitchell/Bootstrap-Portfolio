@@ -1,6 +1,6 @@
 # Corey Mitchell's Portfolio
 
-This is my coding porfolio for showing off the work that I have accomplished in class thus far.  Page includes my work so far, an about me section and a contact form. Feel free to contact me here if you would like to get ahold of me for future work.
+This is my coding porfolio for showing off the work that I have accomplished in class thus far.  Page includes my work so far, an about me section and a working contact form. Feel free to contact me here if you would like to get ahold of me for future work.
 
 
 ## Plans for my porfolio
@@ -14,4 +14,4 @@ This is my coding porfolio for showing off the work that I have accomplished in 
 4. Have PHP files for releasing under personal server.
 
 
-### Porfolio style utilizes free bootstrap layout courtesy of Blackrock Digital LLC. Released under the MIT license
+#### Portfolio style utilizes free bootstrap layout courtesy of Blackrock Digital LLC. Released under the MIT license
